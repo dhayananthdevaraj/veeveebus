@@ -1,0 +1,39 @@
+.view-bus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .view-bus h2 {
+    margin-bottom: 20px;
+  }
+  
+  .view-bus table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .view-bus th,
+  .view-bus td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .view-bus tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .view-bus tr:hover {
+    background-color: #ddd;
+  }
+  
+  .view-bus th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
